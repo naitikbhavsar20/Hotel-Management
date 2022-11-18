@@ -1,0 +1,151 @@
+body{
+    background-color:#f0dcb5;
+}
+
+/* navbar */
+.container-fluid{
+    
+    /* background-size: cover; */
+    margin-top: 5px;
+    height: 5rem;
+    background-color: #f0dcb5;
+
+}
+
+.navbar-brand{
+    font-size: 4rem;
+    font-family: 'Playfair Display', serif;
+}
+.container-fluid a{
+    margin: 1.7rem;
+    color:   #8D5E2F;
+}
+.container-fluid a:hover{
+    margin: 1.7rem;
+    color:   #8D5E2F;
+
+}
+
+.nav-item{
+    font-family: 'Raleway', sans-serif;
+    font-size: 17.5px;
+}
+.nav-item #home{
+    margin-left: 2.5rem;
+    font-family: 'Raleway', sans-serif;
+    color:   #8D5E2F;
+    
+}
+h6{
+    color:  #BD8E4A;
+    font-family: 'Noto Serif', serif;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+
+/* booking */
+
+.form-section{
+    /* background-color: #f0dcb5; */
+    background-image: url(/images/caro3.jpg);
+    padding: 1px;
+    margin-top: 10px;
+
+}
+
+.form-bg{
+    background-color: #8D5E2F;
+    opacity: 0.91;
+    border-radius: 20px;
+    padding: 1.6rem 0rem;
+    margin: 3rem 24rem;
+    color: white;    
+    font-family: 'Raleway', sans-serif;
+    /* width: 70%; */
+}
+
+.form-text p{
+    color: rgb(203, 188, 161);
+}
+h2{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.form-control {
+    width: 65%;
+    border-radius: 0rem;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    border: solid white 1px;
+
+
+}
+
+.form-control#person{
+    height: 2rem;
+    width: 4.5rem;
+    /* margin-right: 21rem; */
+}
+.form-control#rooms{
+    width: 10rem;
+    height: 2.2rem;
+    /* margin-right: 21rem; */
+}
+.form-control:focus{
+    font-family: 'Raleway', sans-serif;
+    border-radius: 0px;
+    color: black;
+    border: solid white 1px 0px;
+  
+    box-shadow: none;
+    /* width: 16rem; */
+
+}
+.book-form{
+    margin-left: 9rem;
+}
+
+.btn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn#submit{
+    background-color: rgb(55, 190, 55);
+    border-color: rgb(55, 190, 55);
+    margin-left: 2rem;
+    margin-top: 1rem;
+    border-radius: 0rem;
+    width: 17%;
+}
+
+
+.btn#submit:hover{
+    background-color: rgb(53, 151, 53);
+    border-color: rgb(53, 151, 53);
+    border-radius: 8px;
+    border-color: white;
+}
+
+
+.btn#cancel{
+    background-color: rgb(221, 75, 75);
+    border-color: rgb(221, 75, 75);
+    margin-left: 3.8rem;
+    border-radius: 0rem;
+    margin-top: 1rem;
+    width: 17%;
+    
+}
+
+
+.btn#cancel:hover{
+    background-color: rgb(213, 53, 53);
+    border-color: rgb(213, 53, 53);
+    border-radius: 8px;
+    border-color: white;
+
+}

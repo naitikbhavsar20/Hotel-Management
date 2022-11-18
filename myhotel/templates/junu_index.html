@@ -1,0 +1,21 @@
+{% block body %}
+<center>
+<h1>Employee Details</h1>
+
+<table border="1">
+   <tr>
+{% for i in data %}
+<tr>
+<td>{{ i.fname }}</td>
+<td>{{ i.lname }}</td>
+<td>{{ i.email }}</td>
+<td>{{ i.mobile }}</td>
+<td>{{ i.num }}</td>
+<td>{{ i.rtype }}</td>
+<td>{{ i.date }}</td>
+</tr>
+{% endfor %}
+</table>
+
+</center>
+{% endblock body %}

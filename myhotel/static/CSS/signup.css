@@ -1,0 +1,69 @@
+body{
+    background-color: whitesmoke;
+}
+.container-fluid{
+    background-color: rgb(238, 209, 157);
+    /* padding: 2rem; */
+    /* margin: 1rem; */
+    padding: 0px;
+    margin-top: 3rem;
+    height: 30rem;
+        
+}
+.login-form{
+    background-color: rgb(238, 209, 157);
+    width: 78%;
+    color: black;
+    margin-top: 22.7px;
+    margin-left: 7rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+h1{
+    margin-top: 1.5rem;
+    margin-left: 7rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+img{
+    /* margin-top: 3rem; */
+    height: 30rem;
+    width: 38rem;
+    /* position: absolute; */
+}
+.login-form input#email,#pass{
+    width: 75%;
+    border-color: grey;
+    border-radius: 0px;
+    background-color: rgb(238, 209, 157);
+    border-left-color: rgb(238, 209, 157);
+    border-top-color:  rgb(238, 209, 157);
+    border-right-color: rgb(238, 209, 157);
+}
+.login-form input#email,#pass{
+    background-color: rgb(238, 209, 157);
+}
+
+.login-form input#email:focus,#pass:focus{
+    border-left-style: hidden;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    box-shadow: 0px 1.8px 0px 0px grey ;
+    backdrop-filter: blur(7px);
+
+}
+
+.login-form #check{
+    height: 17px;
+    width: 17px;
+    box-shadow: none;
+}
+
+.btn{
+    margin-top: 27px;
+    background-color: rgb(75, 155, 216);
+    border-color: rgb(75, 155, 216);
+    margin-left: 6rem;
+    width: 40%;
+}

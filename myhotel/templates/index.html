@@ -1,0 +1,60 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="/images/fav.png" type="image/x-icon">
+<!-- fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway:ital,wght@1,500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap" rel="stylesheet">
+<!-- cdn -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+<link rel="stylesheet" href="{% static 'CSS/login.css' %}">
+<title>Elite | Log In</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container-fluid">
+            <div class="row row-cols-2 " >
+                <div class="col ">
+                    <h1>Log In</h1>
+                    
+                        <form class="login-form" action="auth" method="post">
+                            {% csrf_token%}
+                            <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email </label>
+                            <input type="email" class="form-control" name="email" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" name="pass" id="pass"  required>
+                            </div>
+                            <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="check"  required>
+                            <label class="form-check-label" for="Checkbox" style="margin-top: 0.78rem;" >Remember me</label>
+                            </div>
+                            <div>
+                                <label>Don't have an account?</label>
+                                <a href="signup.html">Sign Up</a>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Log In</button>
+                        </form>
+                    </div>
+                    <div class="col">
+                        <img src="{% static 'images/logo.jpg' %}">
+                    </div>
+              </div>
+        </div>
+    </div>
+
+</body>
+</html>
